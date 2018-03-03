@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run start:dev",
-    "start:dev": "environment=dev nodemon .",
+    "start:dev": "environment=dev pm2 start .",
     "start:prod": "environment=prod node ."
   },
   "author": "Yogesh Rathod",
@@ -32,16 +32,16 @@
     "morgan": "1.9.0",
     "multer": "^1.3.0",
     "node-schedule": "^1.3.0",
+    "nodemon": "^1.17.1",
     "passport": "0.4.0",
     "passport-github": "^1.1.0",
     "passport-google-oauth": "1.0.0",
     "passport-google-oauth2": "0.1.6",
     "passport-oauth2": "1.4.0",
+    "pm2": "^2.10.1",
     "winston": "^3.0.0-rc1",
     "winston-daily-rotate-file": "^2.0.0-rc.1",
-    "xlsx": "^0.12.3",
-    "nodemon": "^1.17.1"
+    "xlsx": "^0.12.3"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
