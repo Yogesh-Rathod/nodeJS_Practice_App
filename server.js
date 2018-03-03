@@ -71,7 +71,7 @@ mongoose.connection.on('error', function (err) {
 // When the connection is disconnected
 mongoose.connection.on('disconnected', function () {
     console.log('Mongoose connection disconnected');
-    logger.warning('Mongoose connection disconnected');
+    logger.warn('Mongoose connection disconnected');
 });
 
 // ========== API Routing ============= //  
