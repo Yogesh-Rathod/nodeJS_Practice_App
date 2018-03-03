@@ -39,9 +39,9 @@
     "passport-oauth2": "1.4.0",
     "winston": "^3.0.0-rc1",
     "winston-daily-rotate-file": "^2.0.0-rc.1",
-    "xlsx": "^0.12.3"
+    "xlsx": "^0.12.3",
+    "nodemon": "^1.17.1"
   },
   "devDependencies": {
-    "nodemon": "^1.13.3"
   }
 }
